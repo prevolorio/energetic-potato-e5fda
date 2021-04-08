@@ -19,9 +19,6 @@ const Pricing = ({ contentModuleId }) => {
                         pricingPlans {
                             id
                             title
-                            price
-                            perItem
-                            currency
                             planFeatures
                             buttonText
                             buttonUrl
