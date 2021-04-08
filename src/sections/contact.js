@@ -40,6 +40,7 @@ const Contact = ({ contentModuleId }) => {
                 <h2 className="section__title" data-sal="fade" data-sal-easing="ease-in-cubic">{ content.node.heading }</h2>
                 <p className="mb-4 w-full md:w-3/4" data-sal="slide-up" data-sal-easing="ease-in-cubic">{ content.node.description.description }</p>
                 <form id="contact_form" data-netlify="true" data-netlify-honeypot="bts-field" className="w-full md:w-3/4" noValidate data-sal="slide-up" data-sal-easing="ease-in-cubic" data-sal-delay="100">
+                    <input type="hidden" name="bot-field" />
                     <div className="input-group mb-2">
                         <label htmlFor="name">Name</label>
                         <input type="text" id="name" className="input" name="name" />
