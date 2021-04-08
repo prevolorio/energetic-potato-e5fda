@@ -14,7 +14,6 @@ module.exports = {
             options: {
               fonts: [
                 `material icons`,  
-                `Roboto\:400,700`,  
                 `Rubik\:400,700`
               ],
               display: 'swap'
