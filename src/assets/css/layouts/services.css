@@ -11,7 +11,7 @@
 }
 
 .service__image-wrap {
-    max-height: 166px;
+    max-height: 186px;
     max-width: 207px;
     @apply mx-auto;
 }
