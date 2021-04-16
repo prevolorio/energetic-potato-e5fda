@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 
 const Service = ({ service }) => (
-    <Fragment>
     <div className="service service--left" data-sal="fade" data-sal-easing="ease-in-cubic" data-sal-duration="400">
         {/* <div className="service__image-wrap">
             <Img fluid={ service.image.fluid } alt="service item" className="service__image"/>
