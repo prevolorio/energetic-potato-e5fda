@@ -10,7 +10,6 @@ const Service = ({ service }) => (
         <h3 className="service__title">{ service.title }</h3>
         <p>{ service.description.description }</p>
     </div>
-    </Fragment>
 );
 
 Service.propTypes = {
