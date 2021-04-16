@@ -7,6 +7,8 @@ const Service = ({ service }) => (
         {/* <div className="service__image-wrap">
             <Img fluid={ service.image.fluid } alt="service item" className="service__image"/>
         </div> */}
+                    <i className="item__icon material-icons text-primary">{ feature.icon }</i>
+
         <h3 className="service__title">{ service.title }</h3>
         <p>{ service.description.description }</p>
     </div>
