@@ -66,7 +66,7 @@ const Footer = ({ menus }) => {
                         </ul>
                     </div>
                 }
-                <div className="footer__content">
+                {/* <div className="footer__content">
                     <h3 className="text-lg font-bold mb-4">Follow Us</h3>
                     <ul className="flex text-sm">
                         <li className="mb-2 mr-4">
@@ -85,7 +85,7 @@ const Footer = ({ menus }) => {
                             </a>
                         </li>
                     </ul>
-                </div>
+                </div> */}
             </div>
         </footer>
     );
