@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 
 const Service = ({ service }) => (
-                <i className="item__icon material-icons text-primary">{ feature.icon }</i>
+                <i className="item__icon material-icons text-primary">{ service.icon }</i>
 
     <div className="service service--left" data-sal="fade" data-sal-easing="ease-in-cubic" data-sal-duration="400">
         {/* <div className="service__image-wrap">
