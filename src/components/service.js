@@ -4,8 +4,8 @@ import Img from 'gatsby-image';
 
 const Service = ({ service }) => (
     <Fragment>
-        
-    </Fragment>
+
+    
                 <i className="item__icon material-icons text-primary">{ service.icon }</i>
 
     <div className="service service--left" data-sal="fade" data-sal-easing="ease-in-cubic" data-sal-duration="400">
