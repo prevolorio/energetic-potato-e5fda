@@ -69,7 +69,6 @@ function SEO({ description, lang, meta, title }) {
         },
       ].concat(meta)}
     >
-        <div data-tf-chat data-tf-popover="ZynPRwjB" data-tf-button-color="#0445AF"></div><script src="//embed.typeform.com/next/embed.js"></script>
     </Helmet>
   )
 }
