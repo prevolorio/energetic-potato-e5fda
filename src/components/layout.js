@@ -31,7 +31,6 @@ const Layout = ({ children, menus }) => {
                 { children }
             </div>
             <Footer menus={ menus }/>
-            
         </div>
     );
 }
