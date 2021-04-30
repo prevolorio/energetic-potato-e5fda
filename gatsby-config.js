@@ -44,6 +44,13 @@ module.exports = {
             }
         },
         {
+            resolve: 'gatsby-plugin-tidio-chat',
+            options: {
+              tidioKey: 'dgxpqt69vvxgljsspbydydsj2wt8hxul',
+              enableDuringDevelop: false, // Optional. Disables Tidio chat widget when running Gatsby dev server. Defaults to true.
+            },
+          },
+        {
             resolve: `gatsby-source-contentful`,
             options: {
               spaceId: process.env.CONTENTFUL_SPACE_ID,
