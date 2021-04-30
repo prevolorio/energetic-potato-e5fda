@@ -66,6 +66,14 @@ const Footer = ({ menus }) => {
                         </ul>
                     </div>
                 }
+                {
+                    (footerMenu !== null && footerMenu !== undefined) &&
+                    <div className="footer__content">
+                        <ul className="text-sm">
+                            <li className="mb-2" ><a>Copyright © LaunchBH | 2021 | All rights reserved.</a></li>
+                        </ul>
+                    </div>
+                }
                 {/* <div className="footer__content">
                     <h3 className="text-lg font-bold mb-4">Follow Us</h3>
                     <ul className="flex text-sm">
@@ -86,7 +94,6 @@ const Footer = ({ menus }) => {
                         </li>
                     </ul>
                 </div> */}
-                
             </div>
         </footer>
     );
