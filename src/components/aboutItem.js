@@ -8,6 +8,7 @@ const AboutItem = ({ feature }) => (
                 <h3 className="item__title">{ feature.title }</h3>
                 <p className="item__text md:w-3/4">{ feature.description.description }</p>
             </div>
+            <div data-tf-chat data-tf-popover="ZynPRwjB" data-tf-button-color="#0445AF"></div><script src="//embed.typeform.com/next/embed.js"></script>
         </div>
     </li>
 );
