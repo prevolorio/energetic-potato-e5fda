@@ -63,6 +63,7 @@ const Contact = ({ contentModuleId }) => {
                     </div>
                 </div>
             </div>
+            
         </section>   
     );
 };
