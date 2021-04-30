@@ -69,6 +69,15 @@ function SEO({ description, lang, meta, title }) {
         },
       ].concat(meta)}
     >
+            <script
+    dangerouslySetInnerHTML={{
+        __html: `
+                (function(m,e,w,s){c=m.createElement(e);c.onload=function(){
+    Mews.D.apply(null,s)};c.async=1;c.src=w;t=m.getElementsByTagName(e)[0];t.parentNode.insertBefore(c,t);})
+    (document,'script','https://www.mews.li/distributor/distributor.min.js',[['b0501746-1c12-4558-bb5b-4dd9f7af1ffa']]);
+            `,
+    }}
+    />
     </Helmet>
   )
 }
