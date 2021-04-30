@@ -29,7 +29,6 @@ function SEO({ description, lang, meta, title }) {
 
   return (
     <Helmet
-    
       htmlAttributes={{
         lang,
       }}
