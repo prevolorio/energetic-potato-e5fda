@@ -29,6 +29,7 @@
     "gatsby-plugin-react-helmet": "^3.3.10",
     "gatsby-plugin-resolve-src": "^2.1.0",
     "gatsby-plugin-sharp": "^2.6.23",
+    "gatsby-plugin-tidio-chat": "^1.0.0",
     "gatsby-source-contentful": "^2.3.41",
     "gatsby-source-filesystem": "^2.3.23",
     "gatsby-transformer-sharp": "^2.5.11",
