@@ -68,7 +68,11 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    ></Helmet>
+    >
+            <script>
+        {`YOUR_SCRIPT_HERE`}
+    </script>
+    </Helmet>
   )
 }
 
