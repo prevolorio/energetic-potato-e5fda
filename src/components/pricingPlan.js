@@ -17,6 +17,7 @@ const PricingPlan = ({ plan }) => (
             }
         </div>
         <a href={ plan.buttonUrl } className={`btn ${!plan.featured ? 'btn--primary': ''}`}>{ plan.buttonText }</a>
+
     </div>
 );
 
