@@ -17,6 +17,11 @@ const PricingPlan = ({ plan }) => (
             }
         </div>
         <a href={ plan.buttonUrl } className={`btn ${!plan.featured ? 'btn--primary': ''}`}>{ plan.buttonText }</a>
+        <!-- Calendly link widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/launchbh'});return false;">Schedule time with me</a>
+<!-- Calendly link widget end -->
     </div>
 );
 
