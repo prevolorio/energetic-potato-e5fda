@@ -5,7 +5,7 @@ require("dotenv").config({
 module.exports = {
     siteMetadata: {
         title: `BH`,
-        description: `Behavioral Health Platform.`,
+        description: `A Behavioral Health Platform.`,
         author: `LaunchBH`,
     },
     plugins: [
