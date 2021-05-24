@@ -6,7 +6,7 @@ module.exports = {
     siteMetadata: {
         title: `BH`,
         description: `A Behavioral Health Platform.`,
-        author: `The Bakerdev`,
+        author: `LaunchBH`,
     },
     plugins: [
         {
