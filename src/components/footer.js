@@ -89,6 +89,7 @@ const Footer = ({ menus }) => {
                     </ul>
                 </div> */}
             </div>
+            </Fragment>
         </footer>
     );
 };
