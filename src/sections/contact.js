@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
 import validation from 'utils/validation';
+import { InlineWidget } from 'react-calendly';
 
 const Contact = ({ contentModuleId }) => {
 
@@ -56,13 +57,16 @@ const Contact = ({ contentModuleId }) => {
                     <button type="submit" className="btn btn--primary mt-8">Send</button>
                 </form>
             </div>
-            <div className="contact__image">
+            {/* <div className="contact__image">
                 <div className="mx-auto" data-sal="slide-up" data-sal-delay="400" data-sal-duration="500">
                     <div className="contact__image-wrap">
                         <Img fluid={ content.node.image.fluid } alt="Contact" />
                     </div>
                 </div>
-            </div>
+            </div> */}
+            <InlineWidget
+                url="https://calendly.com/launchbh"
+            />
         </section>   
     );
 };
