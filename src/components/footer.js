@@ -86,7 +86,6 @@ const Footer = ({ menus }) => {
                         </li>
                     </ul>
                 </div> */}
-            
             </div>
         </footer>
     );
