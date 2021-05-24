@@ -66,27 +66,7 @@ const Footer = ({ menus }) => {
                         </ul>
                     </div>
                 }
-                
-                {/* <div className="footer__content">
-                    <h3 className="text-lg font-bold mb-4">Follow Us</h3>
-                    <ul className="flex text-sm">
-                        <li className="mb-2 mr-4">
-                            <a href={ data.contentfulContactDetails.facebookUrl }>
-                                <img className="w-6 h-6" src={ require('assets/images/facebook.svg') }  alt="Facebook Icon" />
-                            </a>
-                        </li>
-                        <li className="mb-2 mr-4">
-                            <a href={ data.contentfulContactDetails.twitterUrl }>
-                                <img className="w-6 h-6" src={ require('assets/images/twitter.svg') } alt="Twitter Icon" />
-                            </a>
-                        </li>
-                        <li className="mb-2 mr-4">
-                            <a href={ data.contentfulContactDetails.instagramUrl }>
-                                <img className="w-6 h-6" src={ require('assets/images/instagram.svg') } alt="Instagram Icon" />
-                            </a>
-                        </li>
-                    </ul>
-                </div> */}
+            
             </div>
         </footer>
     );
