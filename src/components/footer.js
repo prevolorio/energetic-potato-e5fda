@@ -1,4 +1,4 @@
-import React, Fragment from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
 
@@ -23,7 +23,6 @@ const Footer = ({ menus }) => {
 
     return (
         <footer className="footer bg-tertiary text-white">
-            <Fragment>
             <div className="container section mx-auto py-10">
                 <div className="footer__content">
                     <h3 className="text-lg font-bold mb-4">Contact Info</h3>
