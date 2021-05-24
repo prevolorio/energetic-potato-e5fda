@@ -66,11 +66,7 @@ const Footer = ({ menus }) => {
                         </ul>
                     </div>
                 }
-                <!-- Calendly link widget begin -->
-<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/launchbh'});return false;">Schedule time with me</a>
-<!-- Calendly link widget end -->
+                
                 {/* <div className="footer__content">
                     <h3 className="text-lg font-bold mb-4">Follow Us</h3>
                     <ul className="flex text-sm">
