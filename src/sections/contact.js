@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
 import validation from 'utils/validation';
-import { InlineWidget } from 'react-calendly';
+import Calendly from './calendly';
 
 const Contact = ({ contentModuleId }) => {
 
@@ -64,9 +64,7 @@ const Contact = ({ contentModuleId }) => {
                     </div>
                 </div>
             </div> */}
-            <InlineWidget
-                url="https://calendly.com/launchbh"
-            />
+            <Calendly />
         </section>   
     );
 };
