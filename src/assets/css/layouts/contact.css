@@ -1,5 +1,6 @@
 .contact__content {
     @apply w-full;
+    padding-top: 20px;
 }
 
 .contact__image {
@@ -7,8 +8,8 @@
 }
 
 .contact__image-wrap {
-    max-height: 265px;
-    max-width: 330px;
+    max-height: 395px;
+    max-width: 440px;
     @apply mx-auto;
 }
 
@@ -20,4 +21,8 @@
     .contact__image {
         @apply block w-1/2;
     }
+}
+
+.calendly-inline-widget {
+    height: 820px !important;
 }
