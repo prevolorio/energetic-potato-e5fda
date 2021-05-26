@@ -55,7 +55,7 @@ const Testimonials = ({ contentModuleId }) => {
     });
 
    return (
-    <section id="testimonials" className="testimonials container section mx-auto">
+    <section id="testimonials" className="testimonials section mx-auto bg-gray">
         <div className="w-full md:w-1/2 pl-0 md:pl-16 text-center md:text-left">
             <h2 className="w-full md:w-3/4 font-bold text-5xl leading-none mb-6" data-sal="fade" data-sal-easing="ease-in-cubic">{ content.node.heading }</h2>
             <p className="w-full md:w-3/4" data-sal="fade" data-sal-easing="ease-in-cubic">{ content.node.description.description }</p>
