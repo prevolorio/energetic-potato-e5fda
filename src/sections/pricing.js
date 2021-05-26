@@ -33,7 +33,7 @@ const Pricing = ({ contentModuleId }) => {
     const content = data.allContentfulLayoutPricing.edges.find(edge => edge.node.id === contentModuleId);
 
     return (
-        <section id="pricing" className="pricing section bg-gray">
+        <section id="pricing" className="pricing section">
             <div className="container mx-auto">
                 <h2 className="section__title text-center mb-16" data-sal="fade" data-sal-easing="ease-in-cubic">{ content.node.heading }</h2>
                 {
