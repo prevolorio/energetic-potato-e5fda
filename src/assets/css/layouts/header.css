@@ -1,3 +1,8 @@
 .header {
     @apply flex justify-between mx-auto py-4 px-4;
 }
+
+#site-logo {
+    max-width: 85%;
+    margin-top: -2em !important;
+}
