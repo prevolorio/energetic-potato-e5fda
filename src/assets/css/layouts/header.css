@@ -3,6 +3,7 @@
 }
 
 #site-logo {
+    width: 27em;
     max-width: 85%;
-    margin-top: -2em !important;
+    margin-top: -2.25em !important;
 }
