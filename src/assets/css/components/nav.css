@@ -20,7 +20,7 @@
 
 .nav__menu-button {
     cursor: pointer;
-    height: 30px;
+    height: 10px;
     width: 35px;
     @apply relative;
     

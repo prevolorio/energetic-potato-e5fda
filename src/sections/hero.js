@@ -32,6 +32,9 @@ const Hero = ({ contentModuleId }) => {
 
     return (
         <section className="hero container section mx-auto">
+            <div className="hero__image" >
+                <img src={ content.node.image.fluid.src }  className="mx-auto" alt="Hero" data-sal="slide-right" data-sal-delay="400" data-sal-duration="500" />
+            </div>   
             <div className="hero__tagline">
                 <div className="hero__tagline-content-wrap">
                     <h2 className="hero__tagline-title" data-sal="fade">{ content.node.heading }</h2>
@@ -40,9 +43,7 @@ const Hero = ({ contentModuleId }) => {
                     <a href={ content.node.ctaUrl }><button className="btn btn--primary mt-8" data-sal="fade" data-sal-delay="300">{ content.node.ctaText }</button></a>
                 </div>
             </div>
-            <div className="hero__image">
-                <img src={ content.node.image.fluid.src }  className="mx-auto" alt="Hero" data-sal="slide-right" data-sal-delay="400" data-sal-duration="500" />
-            </div>
+     
         </section>
     );
 };
