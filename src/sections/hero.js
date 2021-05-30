@@ -32,10 +32,10 @@ const Hero = ({ contentModuleId }) => {
 
     return (
         <section className="hero container section mx-auto">
-            <div className="hero__image" >
+            <div className="hero__image md:ml-16" >
                 <img src={ content.node.image.fluid.src }  className="mx-auto" alt="Hero" data-sal="slide-right" data-sal-delay="400" data-sal-duration="500" />
             </div>   
-            <div className="hero__tagline">
+            <div className="hero__tagline md:ml-8">
                 <div className="hero__tagline-content-wrap">
                     <h2 className="hero__tagline-title" data-sal="fade">{ content.node.heading }</h2>
                     <p className="hero__tagline-subtitle" data-sal="fade" data-sal-delay="100">{ content.node.subheading }</p>
