@@ -23,7 +23,7 @@
 
 @screen md {
     .services__items {
-        @apply grid-cols-2;
+        @apply grid-cols-3;
     }
 
     .service {
