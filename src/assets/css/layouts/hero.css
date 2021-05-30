@@ -7,7 +7,7 @@
 }
 
 .hero__tagline-subtitle {
-    @apply text-2xl;
+    @apply font-semibold text-xl;
 }
 
 .hero__tagline-text {
@@ -29,8 +29,12 @@
         @apply w-1/2 text-left;
     }
 
+    .hero__tagline-subtitle {
+        @apply text-2xl font-normal;
+    }
+
     .hero__tagline-text {
-        @apply w-3/4;
+        @apply w-full;
     }
 
     .hero__image {
