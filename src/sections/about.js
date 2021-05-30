@@ -41,7 +41,7 @@ const About = ({ contentModuleId }) => {
     return (
         <section id="about" className="about-us bg-gray">
             <div className="container section mx-auto">
-                <div className="about-us__content">
+                <div className="about-us__content md:ml-20">
                     <h2 className="section__title" data-sal="fade" data-sal-easing="ease-in-cubic">{ content.node.heading }</h2>
                     <p data-sal="slide-up" data-sal-easing="ease-in-cubic" data-sal-delay="100">{ content.node.description.description }</p>
                     { 

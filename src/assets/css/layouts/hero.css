@@ -15,7 +15,7 @@
 }
 
 .hero__image {
-    @apply w-full pt-16;
+    @apply w-full pt-16 -mt-20 ml-2;
 
     img {
         max-height: 342px;
@@ -34,6 +34,6 @@
     }
 
     .hero__image {
-        @apply w-1/2 pt-0;
+        @apply w-1/2 pt-0 mt-0;
     }
 }
