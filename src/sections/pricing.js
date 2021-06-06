@@ -35,7 +35,7 @@ const Pricing = ({ contentModuleId }) => {
     return (
         <section id="pricing" className="pricing section">
             <div className="container mx-auto">
-                <h2 className="section__title text-center mb-16" data-sal="fade" data-sal-easing="ease-in-cubic">{ content.node.heading }</h2>
+                <h2 className="w-full font-bold text-5xl text-center mb-16" data-sal="fade" data-sal-easing="ease-in-cubic">{ content.node.heading }</h2>
                 {
                     content.node.pricingPlans.length > 0 && 
                     <div className="pricing__items">
