@@ -42,7 +42,7 @@ const About = ({ contentModuleId }) => {
         <section id="about" className="about-us bg-gray">
             <div className="container section mx-auto">
                 <div className="about-us__content md:ml-20">
-                    <h2 className="section__title" data-sal="fade" data-sal-easing="ease-in-cubic">{ content.node.heading }</h2>
+                    <h2 className="w-full font-bold text-5xl leading-none mb-6" data-sal="fade" data-sal-easing="ease-in-cubic">{ content.node.heading }</h2>
                     <p data-sal="slide-up" data-sal-easing="ease-in-cubic" data-sal-delay="100">{ content.node.description.description }</p>
                     { 
                         content.node.featureItem.length > 0 &&
