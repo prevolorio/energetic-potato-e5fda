@@ -71,7 +71,7 @@ const Footer = ({ menus }) => {
                     (footerMenu !== null && footerMenu !== undefined) &&
                     <div className="footer__content">
                         <ul className="text-sm">
-                            <li className="mb-2" ><a>Copyright © LaunchBH | 2021 | All rights reserved.</a></li>
+                            <li className="mb-2" ><a>Copyright © LaunchBH | 2022 | All rights reserved.</a></li>
                         </ul>
                     </div>
                 }
